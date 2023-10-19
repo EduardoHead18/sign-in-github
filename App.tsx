@@ -99,7 +99,7 @@ export default function App() {
               setIsLoading(true);
             }}
           >
-            <Text style={styles.text}>Sign in with</Text>
+            <Text style={styles.text}>Sign in </Text>
             <AntDesign name="github" size={29} color="white" />
           </TouchableOpacity>
         </View>

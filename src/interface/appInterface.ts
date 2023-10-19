@@ -1,3 +1,5 @@
+import { CLIENT_ID } from "@env";
+
 export interface IData {
   client_id: string;
   client_secret: string;
@@ -19,5 +21,5 @@ export const discovery : IDiscovery = {
     authorizationEndpoint: "https://github.com/login/oauth/authorize",
     tokenEndpoint: "https://github.com/login/oauth/access_token",
     revocationEndpoint:
-      "https://github.com/settings/connections/applications/0bd22da418910923430f",
+      `https://github.com/settings/connections/applications/${CLIENT_ID}`,
   };
