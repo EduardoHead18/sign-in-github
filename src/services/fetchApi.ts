@@ -38,5 +38,6 @@ export const getUserInformation = async () => {
     },
   });
   const responseJson = await response.json();
+  console.log(responseJson)
   return responseJson;
 };
