@@ -13,7 +13,7 @@ import * as WebBrowser from "expo-web-browser";
 import { makeRedirectUri, useAuthRequest } from "expo-auth-session";
 import { CLIENT_SECRET, CLIENT_ID } from "@env";
 import { IData, IUserInfo, discovery } from "../interface/appInterface";
-import { getUserToken, getUserInformation } from "../services/fetchApi";
+import { getUserToken, getUserInformation } from "../services/LoginGithubFetchApi";
 import { Home } from "./Home";
 
 WebBrowser.maybeCompleteAuthSession();
